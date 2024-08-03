@@ -6,7 +6,7 @@ out/
 !**/src/test/**/out/
 .idea/*
 target/**
-out/
+out/**
 *.iml
 *.zip
 
