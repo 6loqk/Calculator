@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculadora {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("¡Bienvenido a una CalculaES! \n" +
+        System.out.println("¡Bienvenido a una MikeContadorChiquito! \n" +
                 "Para poder continuar debes seleccinar una opcion de las que se te muestran \n" +
                 "1: Suma \n" +
                 "2: Resta \n" +
