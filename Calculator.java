@@ -1,4 +1,4 @@
-// This code is of: jairogarciarincon
+// This code is of: jairogarciarincon :)
 // Source: https://www.jairogarciarincon.com/clase/interfaces-de-usuario-con-java-swing/calculadora-guiada-en-java-swing
 
 import javax.swing.*;
