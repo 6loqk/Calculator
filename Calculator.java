@@ -1,3 +1,6 @@
+// This code is of: jairogarciarincon
+// Source: https://www.jairogarciarincon.com/clase/interfaces-de-usuario-con-java-swing/calculadora-guiada-en-java-swing
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
@@ -10,12 +13,13 @@ import java.util.Locale;
 public class Calculator extends JFrame {
     JLabel display;
     int numberOfButtons = 17;
-    JButton buttons[] = new JButton[numberOfButtons];
-    String textButtons[] = {"Result","7","8","9","/","4","5","6","*","1","2","3","-","C","0",".","+"};
-    int xButtons[] = {15, 15, 80, 145, 210, 15, 80, 145, 210, 15, 80, 145, 210, 15, 80, 145, 210};
-    int yButtons[] = {90, 155, 155, 155, 155, 220, 220, 220, 220, 285, 285, 285, 285, 350, 350, 350, 350};
+    JButton[] buttons = new JButton[numberOfButtons];
+    String[] textButtons = {"Result","7","8","9","/","4","5","6","*","1","2","3","-","C","0",".","+"};
 
-    int numberButtons[] = {14, 9, 10, 11, 5, 6, 7, 1, 2, 3};
+    int[] xButtons = {15, 15, 80, 145, 210, 15, 80, 145, 210, 15, 80, 145, 210, 15, 80, 145, 210};
+    int[] yButtons = {90, 155, 155, 155, 155, 220, 220, 220, 220, 285, 285, 285, 285, 350, 350, 350, 350};
+
+    int[] numberButtons = {14, 9, 10, 11, 5, 6, 7, 1, 2, 3};
 
     int[] operationsButtons = {16, 12, 8, 4};
 
@@ -59,7 +63,7 @@ public class Calculator extends JFrame {
             buttons[i] = new JButton(textButtons[i]);
             int size = (i == 0) ? 24 : 16;
             int widht = (i == 0) ? 245 : widhtButton;
-            /**if (i == 0) {
+            /** if (i == 0) {
                 int widht = 245;
             } else {
                 int widht = widhtButton;
