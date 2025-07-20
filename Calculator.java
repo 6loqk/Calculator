@@ -78,7 +78,7 @@ public class Calculator extends JFrame {
 
     public void initWindow() {
         setLayout(null);
-        setTitle("Calculator");
+        setTitle("Calculator.");
         setSize(290, 455);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
